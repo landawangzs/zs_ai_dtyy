@@ -1,7 +1,7 @@
 # SpringBoot 项目初始模板
 
-> 作者：[程序员鱼皮](https://github.com/liyupi)
-> 仅分享于 [编程导航知识星球](https://yupi.icu)
+> 作者：[懒大王](https://github.com/lizs)
+> 仅分享于 [编程导航知识星球](https://zs.icu)
 
 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
 
@@ -172,7 +172,7 @@ PUT post_v1
 
 ```
 // 指定生成参数
-String packageName = "com.yupi.springbootinit";
+String packageName = "com.zs.zsaidtyy";
 String dataName = "用户评论";
 String dataKey = "userComment";
 String upperDataKey = "UserComment";

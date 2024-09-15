@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @author <a href="https://github.com/liyupi">程序员鱼皮</a> -->
-<!-- @from <a href="https://yupi.icu">编程导航知识星球</a> -->
+<!-- @author <a href="https://github.com/lizs">懒大王</a> -->
+<!-- @from <a href="https://zs.icu">编程导航知识星球</a> -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -11,10 +11,10 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
-    <artifactId>springboot-init</artifactId>
+    <groupId>com.zs</groupId>
+    <artifactId>zsaidtyy-backed</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-init</name>
+    <name>zsaidtyy-backed</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -117,6 +117,30 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+<!--        https://github.com/zhipuai/zhipuai-sdk-java-v4-->
+        <dependency>
+            <groupId>cn.bigmodel.openapi</groupId>
+            <artifactId>oapi-java-sdk</artifactId>
+            <version>release-V4-2.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.21.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>
